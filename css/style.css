@@ -1,0 +1,41 @@
+/* h2 {
+  color: aqua;
+  font-size: 79px;
+}
+.change {
+  color: blue;
+}
+#btn {
+  color: brown;
+} */
+.container {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  align-items: center;
+  /* align-items: flex-end; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(180, 100, 100);
+  border: 2px solid black;
+}
+/*.self {
+  align-self: flex-end;
+}*/
+.bb {
+  /* align-self: flex-start; */
+  flex-shrink: 2;
+}
+/*
+
+.bn {
+  align-self: first baseline;
+} */
